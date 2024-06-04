@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "jotai": "^2.8.2",
-    "preact": "^10.22.0"
+    "preact": "^10.22.0",
+    "react-frappe-charts": "^4.1.0",
+    "valtio": "^1.13.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.8.2",

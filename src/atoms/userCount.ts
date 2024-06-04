@@ -1,4 +1,3 @@
-import { atom } from 'jotai'
-import getUserCount from 'helpers/getUserCount'
+import { atom } from 'helpers/atom'
 
-export default atom(getUserCount())
+export default atom(0)

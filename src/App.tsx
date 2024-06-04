@@ -1,13 +1,16 @@
-import { Suspense } from 'preact/compat'
-import UserCount from 'components/UserCount'
+import { Footer } from 'components/Text'
+import Intro from 'components/Intro'
+import Profile from 'components/Profile'
+import Root from 'components/Root'
+import Projects from 'components/Projects'
 
-export default function () {
+export default function App() {
   return (
-    <div className="container mx-auto max-w-prose p-10 prose">
-      <h1>Frontend template</h1>
-      <Suspense fallback={<p>Loading...</p>}>
-        <UserCount />
-      </Suspense>
-    </div>
+    <Root>
+      <Profile />
+      <Intro />
+      <Projects />
+      <Footer>Конец портфолио! Спасибо за просмотр!</Footer>
+    </Root>
   )
 }

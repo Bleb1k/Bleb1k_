@@ -2428,6 +2428,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"derive-valtio@npm:0.1.0":
+  version: 0.1.0
+  resolution: "derive-valtio@npm:0.1.0"
+  peerDependencies:
+    valtio: "*"
+  checksum: 10c0/c64ed74e2bc140dafe080a58fd499f803cebaa89774b5d2bd0fea8054728912f1c715c5c370b4ff01ab9908b64828a7f8f0c968dc9efd0aee037e5679dd804d8
+  languageName: node
+  linkType: hard
+
 "didyoumean@npm:^1.2.2":
   version: 1.2.2
   resolution: "didyoumean@npm:1.2.2"
@@ -3359,10 +3368,12 @@ __metadata:
     postcss: "npm:^8.4.38"
     preact: "npm:^10.22.0"
     prettier: "npm:^3.2.5"
+    react-frappe-charts: "npm:^4.1.0"
     rollup-plugin-visualizer: "npm:^5.12.0"
     tailwindcss: "npm:^3.4.3"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.4.5"
+    valtio: "npm:^1.13.2"
     vite: "npm:^5.2.12"
     vite-tsconfig-paths: "npm:^4.3.2"
   languageName: unknown
@@ -5376,6 +5387,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"proxy-compare@npm:2.6.0":
+  version: 2.6.0
+  resolution: "proxy-compare@npm:2.6.0"
+  checksum: 10c0/afd82ddc83f34af6116a5e222399fb7e626a1a443feb9d70e7a1af65561c97f670c5c8c4bde53bfe12a7cda7ef00f9863d265f3a0e949ff031a9869ecc5feb0c
+  languageName: node
+  linkType: hard
+
 "punycode@npm:^2.1.0":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
@@ -5387,6 +5405,17 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: 10c0/900a93d3cdae3acd7d16f642c29a642aea32c2026446151f0778c62ac089d4b8e6c986811076e1ae180a694cedf077d453a11b58ff0a865629a4f82ab558e102
+  languageName: node
+  linkType: hard
+
+"react-frappe-charts@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "react-frappe-charts@npm:4.1.0"
+  peerDependencies:
+    frappe-charts: ">= 1.5.2"
+    react: ">= 16.8.0"
+    react-dom: ">= 16.8.0"
+  checksum: 10c0/855c76e1e83a0a5228a6b69f15608286f2d30797ed8e421afc75405973b50033e669e3cee836ae58b974dae4a962b6414cf8154029f5f7b779701d81b41f0e51
   languageName: node
   linkType: hard
 
@@ -6574,6 +6603,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"use-sync-external-store@npm:1.2.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/ac4814e5592524f242921157e791b022efe36e451fe0d4fd4d204322d5433a4fc300d63b0ade5185f8e0735ded044c70bcf6d2352db0f74d097a238cebd2da02
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -6585,6 +6623,25 @@ __metadata:
   version: 3.0.1
   resolution: "v8-compile-cache-lib@npm:3.0.1"
   checksum: 10c0/bdc36fb8095d3b41df197f5fb6f11e3a26adf4059df3213e3baa93810d8f0cc76f9a74aaefc18b73e91fe7e19154ed6f134eda6fded2e0f1c8d2272ed2d2d391
+  languageName: node
+  linkType: hard
+
+"valtio@npm:^1.13.2":
+  version: 1.13.2
+  resolution: "valtio@npm:1.13.2"
+  dependencies:
+    derive-valtio: "npm:0.1.0"
+    proxy-compare: "npm:2.6.0"
+    use-sync-external-store: "npm:1.2.0"
+  peerDependencies:
+    "@types/react": ">=16.8"
+    react: ">=16.8"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+  checksum: 10c0/514b8509308056e474c7d3ccfbbd6ac8e589740a92c53c53c78591a217e14da0694bd67f54195d8ec46920b6aab89eebab3c78c98c33d814b3606cdaacb6489b
   languageName: node
   linkType: hard
 
