@@ -17,7 +17,7 @@ export default function Profile() {
         </div>
       </div>
       <div className="relative overflow-hidden">
-        <div className="w-72 h72 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr via-accent-via from-accent-start" />
+        <div className="w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr via-accent-via from-accent-start" />
         <div className="absolute inset-x-0 inset-y-4">
           <img src="images/avatar.png" alt="avatar" />
         </div>
