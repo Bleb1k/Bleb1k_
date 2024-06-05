@@ -13,6 +13,6 @@ export default new Array<Project>(
     title: 'Хакатон 2023',
     description:
       'Занял первое место на местном хакатоне создав нейросеть для распознавания цепочек днк',
-    badges: ['Python', 'Tensorflow', 'Bio', "AI"],
+    badges: ['Python', 'Tensorflow', 'Bio', 'AI'],
   }
 )
