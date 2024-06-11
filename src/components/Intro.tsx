@@ -6,7 +6,7 @@ export default function () {
     <article className="prose max-w-4xl md:max-w-7xl">
       <SubheaderText>Я использую более 8-ми языков!</SubheaderText>
       <BodyText>
-        В мой арсенал входит такие языки как JavaScript и TypeScript, С и C++,
+        В мой арсенал входят такие языки как JavaScript и TypeScript, С и C++,
         Rust, Zig, Python, Java, Gleam, Lua.{'\n'}
         {/* <Link url="https://book.bdut.ch">the book's website</Link> or{' '}
         <Link url="https://a.co/d/8ALfLVd">on Amazon</Link>. Curious about how I
